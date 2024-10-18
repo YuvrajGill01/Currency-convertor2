@@ -13,7 +13,9 @@ function useCurrencyInfo(currency)
             .then((res) => setData(res[currency]))
             console.log(data)
     },[currency])
-    return data
+    return data;
 }
 
 export default useCurrencyInfo;
+
+//https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json
